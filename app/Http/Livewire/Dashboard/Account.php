@@ -29,7 +29,6 @@ class Account extends Component
         $this->zip = auth()->user()->zip;
     }
 
-
     public function save()
     {
         $this->validate([

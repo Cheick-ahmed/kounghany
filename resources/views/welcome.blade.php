@@ -1,100 +1,27 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+@extends('layouts.app')
 
-        <title>Laravel</title>
-
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
-
-        <!-- Styles -->
-        <style>
-            html, body {
-                background-color: #fff;
-                color: #636b6f;
-                font-family: 'Nunito', sans-serif;
-                font-weight: 200;
-                height: 100vh;
-                margin: 0;
-            }
-
-            .full-height {
-                height: 100vh;
-            }
-
-            .flex-center {
-                align-items: center;
-                display: flex;
-                justify-content: center;
-            }
-
-            .position-ref {
-                position: relative;
-            }
-
-            .top-right {
-                position: absolute;
-                right: 10px;
-                top: 18px;
-            }
-
-            .content {
-                text-align: center;
-            }
-
-            .title {
-                font-size: 84px;
-            }
-
-            .links > a {
-                color: #636b6f;
-                padding: 0 25px;
-                font-size: 13px;
-                font-weight: 600;
-                letter-spacing: .1rem;
-                text-decoration: none;
-                text-transform: uppercase;
-            }
-
-            .m-b-md {
-                margin-bottom: 30px;
-            }
-        </style>
-    </head>
-    <body>
-        <div class="flex-center position-ref full-height">
-            @if (Route::has('login'))
-                <div class="top-right links">
-                    @auth
-                        <a href="{{ url('/home') }}">Home</a>
-                    @else
-                        <a href="{{ route('login') }}">Login</a>
-
-                        @if (Route::has('register'))
-                            <a href="{{ route('register') }}">Register</a>
-                        @endif
-                    @endauth
-                </div>
-            @endif
-
-            <div class="content">
-                <div class="title m-b-md">
-                    Laravel
-                </div>
-
-                <div class="links">
-                    <a href="https://laravel.com/docs">Docs</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://blog.laravel.com">Blog</a>
-                    <a href="https://nova.laravel.com">Nova</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://vapor.laravel.com">Vapor</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
-                </div>
-            </div>
+@section('content')
+    @include('partials.events.cause')
+    <section class="my-32">
+        <h4 class="text-white text-5xl italic mt-10">Événements</h4>
+        <div class="border-b border-gray-400 flex items-center justify-between mt-0 mb-4 pb-1">
+            <h5 class="text-white text-xl italic">Très prochainement</h5>
+            <a href="#" class="text-white text-md italic">Tous les événements &rarr;</a>
         </div>
-    </body>
-</html>
+        @for($i = 0; $i < 3; $i++)
+            @include('partials.events.event')
+        @endfor
+    </section>
+    <aside class="grid grid-cols-3 gap-12 my-32">
+        <div class="text-white">
+            <h4 class="text-5xl italic">Nous réjoindre</h4>
+            <p class="text-md font-normal tracking-wider leading-relaxed my-6">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut expedita ipsa quasi, quos sapiente sunt vitae. Consequuntur, dolore eaque eius error illo.
+            </p>
+            <a href="#" class="inline-block font-normal tracking-widest text-sm py-2 lg:py-3 my-4 px-2 lg:px-12 hover:bg-gray-700 lg:hover:bg-orange-800 lg:bg-orange-700 rounded-full tansition-all duration-500">Faites un don</a>
+        </div>
+        <div class="col-span-2 mt-2">
+            <video controls="controls" class="shadow-2xl object-contain rounded-sm"><source src="https://koughanynafa.website/join-us.mp4"><source></video>
+        </div>
+    </aside>
+@endsection
