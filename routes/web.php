@@ -19,12 +19,18 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-Route::get('/dashboard', function() {
-	return view('dashboard.index');
+Route::group([ 'prefix' => 'dashboard', 'namespace' => 'Dashboard', 'as' => 'dashboard.', 'middleware' => 'auth' ], function() {
+	Route::get('/', 'DashboardController@index' )->name('index');
+    Route::get('/account', 'AccountController@index')->name('account');
+    Route::get('/members','UserController@index')->name('members.index');
+    Route::get('/events','EventController@index')->name('events.index');
 });
 
+<<<<<<< Updated upstream
 Route::get('/account', 'Dashboard\AccountController@index')->name('account');
 Route::resource('events', 'EventController')->only([
    'index',
    'show'
 ]);
+=======
+>>>>>>> Stashed changes

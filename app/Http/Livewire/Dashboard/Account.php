@@ -41,7 +41,7 @@ class Account extends Component
             'avatar' => 'nullable|file|mimes:png,jpg,jpeg|max:1024'
         ]);
 
-        $filename = $this->avatar ? $this->avatar->store('/avatars', 'public') : auth()->user()->avatarUrl() ;
+        $filename =  $this->avatar->store('/', 'avatars');
 
         auth()->user()->update([
             'first_name' => $this->first_name,
@@ -61,6 +61,10 @@ class Account extends Component
         $this->validate([
             'avatar' => 'nullable|file|mimes:png,jpg,jpeg|max:1024'
         ]);
+    }
+
+    public function update() {
+        dd('OK');
     }
 
     public function render()
