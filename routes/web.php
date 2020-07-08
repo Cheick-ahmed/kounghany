@@ -24,3 +24,7 @@ Route::get('/dashboard', function() {
 });
 
 Route::get('/account', 'Dashboard\AccountController@index')->name('account');
+Route::resource('events', 'EventController')->only([
+   'index',
+   'show'
+]);

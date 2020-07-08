@@ -3,7 +3,7 @@
         <div class="lg:flex lg:items-center lg:justify-between">
             <div class="flex items-center justify-between">
                 <nuxt-link :to=" { name : 'index' } " class="tracking-wider  uppercase font-header text-lg font-bold italic">
-                    <svg class="stroke-current w-6 h-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline></svg>
+                    <img class="h-8 w-auto" src="{{ asset('images/logo.svg') }}" alt="Kounghany">
                 </nuxt-link>
                 <button class="focus:outline-none block lg:hidden relative flex flex-col items-center justify-center h-8 w-8">
                     <span class="h-1 w-6 rounded bg-orange-500 mb-1 transition-all duration-300"></span>
