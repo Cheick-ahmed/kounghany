@@ -26,11 +26,9 @@ Route::group([ 'prefix' => 'dashboard', 'namespace' => 'Dashboard', 'as' => 'das
     Route::get('/events','EventController@index')->name('events.index');
 });
 
-<<<<<<< Updated upstream
 Route::get('/account', 'Dashboard\AccountController@index')->name('account');
 Route::resource('events', 'EventController')->only([
    'index',
    'show'
 ]);
-=======
->>>>>>> Stashed changes
+
