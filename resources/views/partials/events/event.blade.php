@@ -1,21 +1,29 @@
-<a href="#" class="block w-full bg-gray-200 rounded-sm shadow-xl px-8 py-6 my-12">
-    <h5 class="text-xl font-semibold tracking-wide">Match de Gala</h5>
-    <div class="flex items-center">
-        <div class="flex items-center mr-4">
-            <svg class="fill-current text-orange-500 w-4 h-4 mr-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
-                <path d="M1 4c0-1.1.9-2 2-2h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4zm2 2v12h14V6H3zm2-6h2v2H5V0zm8 0h2v2h-2V0zM5 9h2v2H5V9zm0 4h2v2H5v-2zm4-4h2v2H9V9zm0 4h2v2H9v-2zm4-4h2v2h-2V9zm0 4h2v2h-2v-2z"/>
-            </svg>
-            <span class="block pt-1">03 Juillet 2020</span>
+<div class="w-full sm:max-w-4xl mx-auto transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
+    <a href="#" class="">
+        <div class="p-6 rounded shadow text-black mb-4 bg-gray-200 grid lg:grid-cols-3 gap-4 shadow">
+            <div class="flex flex-col items-center justify-center text-4xl font-semibold">
+                <div>09:00</div>
+            </div>
+            <div class="col-span-2 text-gray-900 font-semibold">
+                <a href="#" class="text-3xl font-bold">Séminaire</a>
+                <p class="mt-2 leading-7 tracking-wide">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum non dignissimos iure officia explicabo laudantium totam sed consectetur quae, architecto? Quam aut sis non tempore quas nisi sunt enim.
+                </p>
+                <div class="mt-3 flex flex-col sm:mt-0 sm:flex-row sm:flex-wrap">
+                    <div class="mt-3 flex items-center text-sm font-bold leading-5 text-gray-500 sm:mr-6">
+                        <svg class="flex-shrink-0 mr-1 h-5 w-5 text-gray-400" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"/>
+                        </svg>
+                        25 mars 2020
+                    </div>
+                    <div class="mt-3 flex items-center text-sm font-bold leading-5 text-gray-500">
+                        <svg class="flex-shrink-0 mr-1 h-5 w-5 text-gray-400" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"/>
+                        </svg>
+                        9-11 rue Genin 93200 St Denis
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="flex items-center">
-            <svg class="fill-current text-green-500 w-4 h-4 mr-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
-                <path d="M1 4c0-1.1.9-2 2-2h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4zm2 2v12h14V6H3zm2-6h2v2H5V0zm8 0h2v2h-2V0zM5 9h2v2H5V9zm0 4h2v2H5v-2zm4-4h2v2H9V9zm0 4h2v2H9v-2zm4-4h2v2h-2V9zm0 4h2v2h-2v-2z"/>
-            </svg>
-            <span class="block pt-1">19 Rue de Boulangerie, 93200 Saint-Denis</span>
-        </div>
-    </div>
-    <p class="my-4">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi debitis doloribus exercitationem expedita fugit, hic molestias obcaecati.
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi debitis doloribus exercitationem expedita fugit, hic molestias obcaecati.
-    </p>
-</a>
+    </a>
+</div>

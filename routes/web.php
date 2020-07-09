@@ -31,4 +31,3 @@ Route::resource('events', 'EventController')->only([
    'index',
    'show'
 ]);
-
