@@ -36526,12 +36526,6 @@ video {
   transition-delay: 1000ms;
 }
 
-body {
-  --bg-opacity: 1;
-  background-color: #000000;
-  background-color: rgba(0, 0, 0, var(--bg-opacity));
-}
-
 .container {
   margin-left: auto;
   margin-right: auto;
