@@ -9,7 +9,12 @@ class WelcomeController extends Controller
 {
     public function index()
     {
-        Auth::loginUsingId(1);
+        #Auth::loginUsingId(1);
         return view('welcome');
+    }
+
+    public function about()
+    {
+        return view('about');
     }
 }

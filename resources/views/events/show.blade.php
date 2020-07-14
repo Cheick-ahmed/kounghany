@@ -43,10 +43,8 @@
                 <div class="">
                     <h4 class="text-lg tracking-wide md:text-xl mb-2">Partager</h4>
                     <div class="flex items-center">
-                        <a href="#" class="mr-2">
-                            <svg class="fill-current text-blue-700 w-6 h-6" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook-square" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-                                <path fill="currentColor" d="M400 32H48A48 48 0 0 0 0 80v352a48 48 0 0 0 48 48h137.25V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.27c-30.81 0-40.42 19.12-40.42 38.73V256h68.78l-11 71.69h-57.78V480H400a48 48 0 0 0 48-48V80a48 48 0 0 0-48-48z"></path>
-                            </svg>
+                        <a href="#" class="mr-3">
+                            <img  class="w-6 h-6" src="{{ asset('images/f_logo.png') }}" alt="">
                         </a>
                         <a href="#" class="">
                             <img  class="w-6 h-6" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/1200px-Instagram_logo_2016.svg.png" alt="">
