@@ -32,7 +32,7 @@
                 <grid class="col-span-3">
                     <h2 class="text-xl text-indigo-900 tracking-tight leading-10 font-medium text-gray-900 sm:text-xl sm:leading-none md:text-2xl">Réprendre le flambeau</h2>
                     <p class="mt-3 text-base text-gray-600 sm:mt-5 sm:text-lg md:mt-5 md:text-lg lg:mx-0 mb-4">
-                        Nous sommes très reconnaissants envers nos anciens qui ont énormément travaillés avec leurs moyens pour le développement du village, notamment au niveau de la santé. Mais en tant que jeunes il nous est important de les soulager car comme le dit un dicton soninké,
+                        Nous sommes très reconnaissants envers nos anciens qui ont énormément travaillés avec leurs moyens pour le développement du village, notamment au niveau de la santé. Mais en tant que jeunes il nous est important de les soulager car comme le dit un dicton soninké:
                     </p>
                     <div class="bg-orange-100 border-l-4 border-orange-500 text-orange-700 p-4" role="alert">
                         <p>
@@ -44,7 +44,38 @@
                 </grid>
             </div>
         </div>
+        <div class="bg-white w-full h-64">
+            <div class="px-4 md:px-0 md:max-w-5xl md:mx-auto my-10">
+                <div class="grid md:grid-cols-3 gap-8 py-12">
+                    <div class="col-span-1">
+                        <h2 class="text-xl text-indigo-900 tracking-normal leading-10 font-semibold text-gray-900 sm:text-xl sm:leading-none md:text-2xl py-4">Nos missions</h2>
+                    </div>
+                    <div class="col-span-2 py-6">
+                        <div class="flex flex-wrap justify-between text-gray-600">
+                            <div class="w-full flex items-center lg:w-6/12 -ml-2 mb-4">
+                                &rarr;
+                                <div class="text-sm uppercase font-bold">Culture</div>
+                            </div>
+                            <div class="w-full flex items-center lg:w-6/12 -ml-2 mb-4">
+                                &rarr;
+                                <div class="text-sm uppercase font-bold">Séminaire</div>
+                            </div>
+                            <div class="w-full flex items-center lg:w-6/12 -ml-2 mb-4">
+                                &rarr;
+                                <div class="text-sm uppercase font-bold">Sport</div>
+                            </div>
+                            <div class="w-full flex items-center lg:w-6/12 -ml-2 mb-4">
+                                &rarr;
+                                <div class="text-sm uppercase font-bold">Education</div>
+                            </div>
+                            <div class="w-full flex items-center lg:w-6/12 -ml-2 mb-4">
+                                &rarr;
+                                <div class="text-sm uppercase font-bold">Devenir Membre</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-
-
 @endsection
