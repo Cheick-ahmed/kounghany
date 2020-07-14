@@ -1,8 +1,8 @@
 @extends('layouts.app')
 @section('content')
     <div class="grid grid-cols-2">
-        <div class="min-h-screen px-20">
-            <div class="py-40">
+        <div class="px-20">
+            <div class="py-56">
                 <h3 class="text-3xl text-gray-900 font-bold tracking-wide mb-6">Contactez-nous !</h3>
                 <p class="text-gray-500 text-md leading-relaxed tracking-wide">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquid amet autem modi placeat quidem repellendus voluptates voluptatibus.
