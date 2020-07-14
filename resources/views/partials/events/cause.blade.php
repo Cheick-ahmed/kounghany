@@ -1,6 +1,6 @@
 <section>
-    <h4 class="text-white text-5xl italic">Nos causes</h4>
-    <div class="grid lg:grid-cols-3 gap-4 mt-12">
+    <h4 class="text-4xl md:text-5xl italic">Nos causes</h4>
+    <div class="grid lg:grid-cols-3 gap-4 mt-6 md:mt-10">
         <div class="bg-gray-900 shadow-lg rounded-md transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 px-8 py-4">
             <h5 class="text-md text-teal-400 font-semibold tracking-wider uppercase my-3">Culture</h5>
             <p class="text-sm text-white font-medium tracking-wide leading-relaxed my-8">
