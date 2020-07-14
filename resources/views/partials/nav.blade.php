@@ -9,8 +9,8 @@
                     <div class="flex">
                         <a href="#" class="ml-4 px-3 py-2 rounded-md text-sm font-medium leading-5 text-gray-700 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out">Réalisations</a>
                         <a href="{{ route('events.index') }}" class="ml-4 px-3 py-2 rounded-md text-sm font-medium leading-5 text-gray-700 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out">Événements</a>
-                        <a href="#" class="ml-4 px-3 py-2 rounded-md text-sm font-medium leading-5 text-gray-700 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out">A propos</a>
-                        <a href="#" class="ml-4 px-3 py-2 rounded-md text-sm font-medium leading-5 text-gray-700 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out">Contact</a>
+                        <a href="{{ route('about-us') }}" class="ml-4 px-3 py-2 rounded-md text-sm font-medium leading-5 text-gray-700 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out">A propos</a>
+                        <a href="{{ route('contact') }}" class="ml-4 px-3 py-2 rounded-md text-sm font-medium leading-5 text-gray-700 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out">Contact</a>
                     </div>
                 </div>
             </div>
@@ -30,8 +30,8 @@
         <div class="px-2 pt-2 pb-3">
             <a href="#" class="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out">Réalisations</a>
             <a href="{{ route('events.index') }}" class="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out">Événements</a>
-            <a href="#" class="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out">A propos</a>
-            <a href="#" class="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out">Contact</a>
+            <a href="{{ route('about-us') }}" class="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out">A propos</a>
+            <a href="{{ route('contact') }}" class="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out">Contact</a>
         </div>
     </div>
 </nav>

@@ -53,23 +53,23 @@
                     <div class="col-span-2 py-6">
                         <div class="flex flex-wrap justify-between text-gray-600">
                             <div class="w-full flex items-center lg:w-6/12 -ml-2 mb-4">
-                                &rarr;
+                                &rarr; &nbsp;
                                 <div class="text-sm uppercase font-bold">Culture</div>
                             </div>
                             <div class="w-full flex items-center lg:w-6/12 -ml-2 mb-4">
-                                &rarr;
+                                &rarr; &nbsp;
                                 <div class="text-sm uppercase font-bold">Séminaire</div>
                             </div>
                             <div class="w-full flex items-center lg:w-6/12 -ml-2 mb-4">
-                                &rarr;
+                                &rarr; &nbsp;
                                 <div class="text-sm uppercase font-bold">Sport</div>
                             </div>
                             <div class="w-full flex items-center lg:w-6/12 -ml-2 mb-4">
-                                &rarr;
+                                &rarr; &nbsp;
                                 <div class="text-sm uppercase font-bold">Education</div>
                             </div>
                             <div class="w-full flex items-center lg:w-6/12 -ml-2 mb-4">
-                                &rarr;
+                                &rarr; &nbsp;
                                 <div class="text-sm uppercase font-bold">Devenir Membre</div>
                             </div>
                         </div>

@@ -31,4 +31,5 @@ Route::resource('events', 'EventController')->only([
    'index',
    'show'
 ]);
-Route::get('about-us', 'WelcomeController@about');
+Route::get('about-us', 'WelcomeController@about')->name('about-us');
+Route::get('contact', 'WelcomeController@contact')->name('contact');
