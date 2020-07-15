@@ -2,17 +2,18 @@
 @section('content')
     <header class="mt-20">
         <div class="">
-            <img class="bg-cover object-cover w-full" src="{{ asset('images/larm.jpg') }}" alt="" style="height: 60vh">
+            <img class="bg-cover object-cover w-full" src="{{ asset('images/larm.jpg') }}" alt="" style="height: 50vh">
         </div>
-        <div class="px-4 md:px-0 md:max-w-5xl md:mx-auto bg-white w-full rounded-tl rounded-rl -mt-24 transform -translate-y-6">
+        <div class="px-4 md:px-0 md:max-w-5xl md:mx-auto bg-white w-full rounded-tl rounded-rl -mt-20 transform -translate-y-6">
             <div class="p-10">
-                <h4 class="text-4xl tracking-wide font-medium mb-3">Case des tout petits</h4>
+                <h4 class="text-4xl tracking-wide font-medium mb-2">Case des tout petits</h4>
                 <span class="inline-flex items-center px-4 py-2 rounded text-sm font-normal leading-4 bg-blue-300 text-blue-900 mr-2">Éducation</span>
             </div>
         </div>
-        <div class="grid grid-cols-3 gap-4 px-4 md:px-0 md:max-w-5xl md:mx-auto mb-10">
+        <div class="grid grid-cols-3 gap-6 px-4 md:px-0 md:max-w-5xl md:mx-auto mb-10">
             <div class="col-span-2 bg-white w-full">
                 <div class="p-10">
+                    <h4 class="text-2xl tracking-wide font-normal mb-3">Description</h4>
                     <p class="text-gray-700 leading-relaxed">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto aspernatur culpa dolores, doloribus eos et facilis, impedit itaque minus quasi quibusdam recusandae repudiandae sint soluta veritatis voluptatem voluptatibus? Exercitationem, voluptas?
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor dolores earum eius id magnam nobis recusandae rerum sunt. Consectetur deleniti dolorem doloremque officiis recusandae similique sit, tempore tenetur! Architecto, laborum.
