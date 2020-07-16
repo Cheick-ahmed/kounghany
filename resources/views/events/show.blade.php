@@ -2,9 +2,9 @@
 @section('content')
     <header class="mt-20">
         <div class="">
-            <img class="bg-cover object-cover w-full" src="{{ asset('images/larm.jpg') }}" alt="" style="height: 50vh">
+            <img class="bg-cover object-cover w-full" src="https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" alt="" style="height: 50vh">
         </div>
-        <div class="px-4 md:px-0 md:max-w-5xl md:mx-auto bg-white w-full rounded-tl rounded-rl -mt-20 transform -translate-y-6 mx-2 md:mx-0 overflow-x-hidden">
+        <div class="px-4 md:px-0 md:max-w-5xl md:mx-auto bg-white w-full rounded-tl rounded-tr -mt-20 transform -translate-y-6 mx-2 md:mx-0 overflow-x-hidden">
             <div class="p-10">
                 <h4 class="text-2xl tracking-wide font-medium uppercase md:text-3xl italic mb-2">Journée culturelle pour le village de Kounghany</h4>
                 <span class="inline-flex items-center px-4 py-2 rounded text-sm font-normal leading-4 bg-blue-300 text-blue-900 mr-2">Éducation</span>

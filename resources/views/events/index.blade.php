@@ -2,7 +2,7 @@
 @section('content')
     <header class="mt-20">
         <div class="">
-            <img class="bg-cover object-cover w-full" src="{{ asset('images/ato.jpg') }}" alt="" style="height: 50vh">
+            <img class="bg-cover object-cover w-full" src="https://images.unsplash.com/photo-1528508670332-4c687dae6295?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60" alt="" style="height: 50vh">
         </div>
     </header>
     <div class="px-4 md:px-0 md:max-w-5xl md:mx-auto my-10">
