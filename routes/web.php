@@ -37,3 +37,4 @@ Route::resource('realisations', 'RealisationController')->only([
 ]);
 Route::get('about-us', 'WelcomeController@about')->name('about-us');
 Route::get('contact', 'WelcomeController@contact')->name('contact');
+Route::get('donation', 'WelcomeController@donation')->name('donation');

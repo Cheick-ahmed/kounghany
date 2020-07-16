@@ -22,4 +22,9 @@ class WelcomeController extends Controller
     {
         return view('contact');
     }
+
+    public function donation()
+    {
+        return view('donation');
+    }
 }
