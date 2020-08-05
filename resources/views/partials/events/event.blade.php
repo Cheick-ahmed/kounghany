@@ -1,10 +1,10 @@
 <div class="w-full sm:max-w-5xl mx-auto transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
     <a href="{{ route('events.show', 1) }}" class="flex items-center justify-center">
-        <div class="p-6 rounded shadow text-black mb-4 bg-white grid lg:grid-cols-3 gap-4 shadow">
+        <div class="p-6 rounded shadow text-white mb-4 bg-gray-900 grid lg:grid-cols-3 gap-4 shadow">
             <div class="flex flex-col items-center justify-center text-4xl font-semibold">
                 <div>09:00</div>
             </div>
-            <div class="col-span-2 text-gray-900 font-semibold">
+            <div class="col-span-2 text-white font-semibold">
                 <a href="{{ route('events.show', 1) }}" class="text-3xl font-bold">Séminaire</a>
                 <p class="mt-2 leading-7 tracking-wide">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum non dignissimos iure officia explicabo laudantium totam sed consectetur quae, architecto? Quam aut sis non tempore quas nisi sunt enim.

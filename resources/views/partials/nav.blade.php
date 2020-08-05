@@ -1,4 +1,4 @@
-<nav x-data="{ open: false }" class="bg-white shadow mb-20 fixed top-0 py-3 w-full z-50 top-0 transition-all duration-700">
+<nav x-data="{ open: false }" class="bg-nafa-dark shadow-lg mb-20 fixed top-0 py-3 w-full z-50 top-0 transition-all duration-700">
     <div class="max-w-5xl mx-auto">
         <div class="flex items-center h-16">
             <div class="flex items-center justify-between">
