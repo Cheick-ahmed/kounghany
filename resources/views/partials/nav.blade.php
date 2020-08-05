@@ -2,15 +2,15 @@
     <div class="max-w-5xl mx-auto">
         <div class="flex items-center h-16">
             <div class="flex items-center justify-between">
-                <div class="flex-shrink-0">
+                <a href="{{ route('index') }}" class="flex-shrink-0">
                     <img class="h-8 w-auto" src="{{ asset('images/logo.svg') }}" alt="Logo">
-                </div>
+                </a>
                 <div class="hidden sm:block">
-                    <div class="flex">
-                        <a href="{{ route('realisations.index') }}" class="ml-4 px-3 py-2 rounded-md text-sm font-medium leading-5 text-gray-700 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out">Réalisations</a>
-                        <a href="{{ route('events.index') }}" class="ml-4 px-3 py-2 rounded-md text-sm font-medium leading-5 text-gray-700 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out">Événements</a>
-                        <a href="{{ route('about-us') }}" class="ml-4 px-3 py-2 rounded-md text-sm font-medium leading-5 text-gray-700 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out">A propos</a>
-                        <a href="{{ route('contact') }}" class="ml-4 px-3 py-2 rounded-md text-sm font-medium leading-5 text-gray-700 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out">Contact</a>
+                    <div class="flex text-white">
+                        <a href="{{ route('realisations.index') }}" class="ml-4 px-3 py-2 rounded-md text-sm font-medium leading-5 hover:text-white hover:bg-nafa-lighter focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out">Réalisations</a>
+                        <a href="{{ route('events.index') }}" class="ml-4 px-3 py-2 rounded-md text-sm font-medium leading-5 hover:text-white hover:bg-nafa-lighter focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out">Événements</a>
+                        <a href="{{ route('about-us') }}" class="ml-4 px-3 py-2 rounded-md text-sm font-medium leading-5 hover:text-white hover:bg-nafa-lighter focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out">A propos</a>
+                        <a href="{{ route('contact') }}" class="ml-4 px-3 py-2 rounded-md text-sm font-medium leading-5 hover:text-white hover:bg-nafa-lighter focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out">Contact</a>
                     </div>
                 </div>
             </div>

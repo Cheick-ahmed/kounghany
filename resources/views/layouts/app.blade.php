@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
-<body class="bg-nafa-dark text-black">
+<body class="bg-nafa-dark">
     @include('partials.nav')
     <main class="">
         @yield('content')

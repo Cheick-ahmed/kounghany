@@ -8,8 +8,8 @@
                 <p class="text-md font-normal tracking-wider leading-relaxed my-8">
                     KOUNGHANY NAFA est une association à but non lucratif régie par la loi française de 1901 créée en 2007 par les ressortissants du village KOUNGHANY (SENEGAL) résidants en France.
                 </p>
-                <a href="#" class="inline-block font-normal tracking-widest text-sm py-2 lg:py-3 mb-2 lg:mb-0 px-2 lg:px-12 hover:bg-gray-700 lg:hover:bg-orange-700 bg-orange-600 rounded tansition-all duration-500">Dons</a>
-                <a href="#" class="inline-block font-normal tracking-widest text-sm py-2 lg:py-3 mb-2 lg:mb-0 px-2 lg:px-10 hover:bg-gray-700 lg:hover:bg-nafa-line bg-transparent border border-nafa-line rounded tansition-all duration-500 mr-2">A propos</a>
+                <a href="#" class="inline-block font-normal tracking-widest text-sm py-2 lg:py-3 mb-2 lg:mb-0 px-2 lg:px-12 hover:bg-gray-700 lg:hover:bg-orange-700 bg-orange-600 rounded tansition-all duration-500 mr-3">Dons</a>
+                <a href="#" class="inline-block font-normal tracking-widest text-sm py-2 lg:py-3 mb-2 lg:mb-0 px-2 lg:px-10  bg-transparent border border-nafa-line rounded tansition-all duration-500">A propos</a>
             </div>
             <div class="hidden md:w-4/12 md:border md:border-red-700 md:h-2"></div>
         </header>

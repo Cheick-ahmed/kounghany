@@ -5,7 +5,7 @@
             <img class="bg-cover object-cover w-full" src="https://images.unsplash.com/photo-1528508670332-4c687dae6295?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60" alt="" style="height: 50vh">
         </div>
     </header>
-    <div class="px-4 md:px-0 md:max-w-5xl md:mx-auto my-10">
+    <div class="px-4 md:px-0 md:max-w-5xl md:mx-auto my-10 text-white">
         <h4 class="text-4xl md:text-5xl italic mb-6">Tous les événements</h4>
         @for($i = 0; $i < 4; $i++)
             @include('partials.events.event')

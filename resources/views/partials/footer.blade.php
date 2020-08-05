@@ -1,4 +1,4 @@
-<div class="bg-gray-900">
+<div class="bg-black">
     <div class="max-w-screen-xl mx-auto py-12 px-4 sm:px-6 md:flex md:items-center md:justify-between lg:px-8">
         <div class="flex justify-center md:order-2">
             <a href="#" class="text-gray-500 hover:text-gray-500">
